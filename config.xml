@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.yoursite.basicparticle"
     versionCode = "10"
-    version     = "1.02.03" >
+    version     = "1.02.04" >
 
   <name>basicparticle</name>
   <description>
@@ -17,7 +17,7 @@
   
 
 
-<!--  <gap:plugin name="cordova-plugin-whitelist" source="npm"/>  -->
+  <gap:plugin name="cordova-plugin-whitelist" source="npm"/> <!-- Yes this is needed -->
  <!-- <access origin="https://*" />  -->
   
 
