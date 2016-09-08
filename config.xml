@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.yoursite.basicparticle"
     versionCode = "10"
-    version     = "1.0.14" >
+    version     = "1.0.15" >
 
   <name>basicparticle</name>
   <description>
@@ -14,8 +14,16 @@
   </author>
 
   <!-- all platforms -->
+  <preference name="phonegap-version" value="cli-5.4.1" />  
+ <!-- 
+  <preference name="phonegap-version" value="3.7.0" />
   <preference name="phonegap-version" value="cli-6.3.0" />  
- <!-- <preference name="phonegap-version" value="3.7.0" /> -->
+ -->
+ 
+ 
+
+ 
+ 
   <preference name="orientation" value="default" />
   <preference name="fullscreen" value="true" />
 
