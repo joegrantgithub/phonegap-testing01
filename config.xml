@@ -3,24 +3,21 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.yoursite.basicparticle"
     versionCode = "10"
-    version     = "1.02.04" >
+    version     = "1.02.05" >
 
   <name>basicparticle</name>
   <description>
       An example for phonegap build docs.
   </description>
+  
   <author href="https://yoursite.com" email="you@gmail.com">
       wildabeast
   </author>
   
   
-  
-
-
   <gap:plugin name="cordova-plugin-whitelist" source="npm"/> <!-- Yes this is needed -->
- <!-- <access origin="https://*" />  -->
-  
 
+  
   <!-- all platforms -->
   <preference name="phonegap-version" value="cli-6.3.0" />  
  <!-- 
@@ -29,18 +26,19 @@
   <preference name="phonegap-version" value="cli-5.4.1" />  
  -->
  
- 
-
- 
- 
   <preference name="orientation" value="default" />
   <preference name="fullscreen" value="true" />
+
+
 
   <!-- Android only -->
   <preference name="android-minSdkVersion" value="10" />
   <preference name="android-maxSdkVersion" value="21" />
   <preference name="android-targetSdkVersion" value="21" />
   <preference name="android-installLocation" value="auto" />
+  
+  
+  
 </widget>
 
 
