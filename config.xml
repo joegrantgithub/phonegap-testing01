@@ -38,6 +38,8 @@
   <preference name="android-installLocation" value="auto" />
   
   
+  <!-- Android SDK versions 4.4=19,    5.1=22,  6.0=23,   7.0=24  -->
+  
   
 </widget>
 
