@@ -148,9 +148,9 @@ Get this from the settings area when logged into <a href="http://spark.io">http:
 
 
 <input type="button" value="Store the Photon's Token and ID locally!" onClick="{
-   localStorage.setItem('myStoredText1', document.all.myToken.value)   
    localStorage.setItem('myStoredText2', document.all.myDeviceId.value)
-   alert( document.all.myToken.value + ' ' +document.all.myDeviceId.value + ' \nHas been stored')
+   localStorage.setItem('myStoredText1', document.all.myToken.value)   
+   alert('DeviceID = '+ document.all.myDeviceId.value + '\nAccess Token = ' + document.all.myToken.value + '\nHas been stored')
 }">
 
 
