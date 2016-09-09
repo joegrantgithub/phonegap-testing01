@@ -32,13 +32,13 @@
 
 
   <!-- Android only -->
-  <preference name="android-minSdkVersion" value="10" />
-  <preference name="android-maxSdkVersion" value="21" />
-  <preference name="android-targetSdkVersion" value="21" />
+  <preference name="android-minSdkVersion" value="14" />
+  <preference name="android-maxSdkVersion" value="24" />
+  <preference name="android-targetSdkVersion" value="19" />
   <preference name="android-installLocation" value="auto" />
   
   
-  <!-- Android SDK versions 4.4=19,    5.1=22,  6.0=23,   7.0=24  -->
+  <!-- Android SDK versions 4.0=14  4.4=19,    5.1=22,  6.0=23,   7.0=24  -->
   
   
 </widget>
