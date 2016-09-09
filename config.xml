@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.yoursite.basicparticle"
     versionCode = "10"
-    version     = "1.02.05" >
+    version     = "1.02.06" >
 
   <name>basicparticle</name>
   <description>
